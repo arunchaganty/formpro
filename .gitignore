@@ -1,0 +1,10 @@
+*.swp
+*.swo
+*.pyc
+*.o
+*.so
+*~
+settings.py
+media/admin/
+apache/django.wsgi
+apache/auth.wsgi
