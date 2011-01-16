@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div>
+  {% if messages %}
+  <div id="messages">
+  <ul class="messages">
+      {% for message in messages %}
+      <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+      {% endfor %}
+  </ul>
+  </div>
+  {% endif %}
+
+  <div>
+    <h3>Introduction</h3>
+    <p>
+        Help message here
+    </p>
+
+    <a name='top'/>
+    <ul>
+      <li> <a href='#l1'>Subheading 1</a> </li>
+      <li> <a href='#l2'>Subheading 2</a> </li>
+    </ul>
+  </div>
+
+  <div>
+    <a name='l1' href="#top" ><h3>Subheading 1</h3></a>
+    <p>
+    Text here.
+    </p>
+  </div>
+
+  <div>
+    <a name='l2' href="#top" ><h3>Subheading 2</h3></a>
+    <p>
+    Text here.
+    </p>
+  </div>
+
+</div>
+{% endblock %}
+

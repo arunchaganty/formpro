@@ -1,0 +1,183 @@
+
+body {
+  width: 800px;
+  margin: 30px auto;
+}
+
+h4 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Header */
+div#header {
+  text-align: center;
+}
+
+div#header table {
+  margin: auto;
+}
+
+
+/* Linkbar */
+div#linkbar {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+}
+
+div#linkbar a {
+  color: black;
+  text-decoration: none;
+}
+
+div#linkbar a:hover {
+  text-decoration: underline;
+}
+
+/* Logout */
+div#logout {
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Body */
+div#body {
+  min-height: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: thin;
+}
+
+
+/* Footer */
+div#footer {
+  text-align: center;
+}
+
+/* Miscellaneous */
+div.centered {
+  text-align: center;
+}
+
+div.right {
+  text-align: right;
+}
+
+span.centered {
+  text-align: center;
+}
+span.right {
+  text-align: right;
+}
+
+.calm-blue {
+  border: solid thin #00529B;
+  background-color: #BDE5F8;
+}
+
+div.calm-blue
+{
+  width: 300px;
+  margin: auto;
+  padding: 10px;
+  min-height: 300px;
+}
+
+.calm-blue2 {
+  border-top: solid thin #00529B;
+  border-bottom: solid thin #00529B;
+  background-color: #BDE5F8;
+  padding: 10px;
+}
+
+.green {
+  background-color:#DFF2BF;
+  border-top: solid thin #4F8A10;
+  border-bottom: solid thin #4F8A10;
+  padding: 10px;
+}
+
+a.plain {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.plain:hover {
+  text-decoration: underline;
+  color: inherit;
+}
+
+/* Home Page */
+
+table#home-table td {
+  width: 50%;
+}
+
+table.results td,th {
+  min-width: 80px;
+  text-align: right;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+tr.light {
+  background: white;
+}
+
+tr.dark {
+  background: #BDE5F8;
+}
+
+/* Message windows */
+ul.errorlist 
+{
+  padding: 0;
+}
+ul.errorlist li 
+{
+  border-top: thin solid #D8000C;
+  border-bottom: thin solid #D8000C;
+  background-color:#FFBABA;
+  list-style: none;
+  padding: 5px;
+}
+
+.error
+{
+  border-top: thin solid #D8000C;
+  border-bottom: thin solid #D8000C;
+  background-color:#FFBABA;
+}
+
+ul.messages 
+{
+  padding: 0;
+}
+ul.messages li.error
+{
+  border-top: thin solid #D8000C;
+  border-bottom: thin solid #D8000C;
+  background-color:#FFBABA;
+  list-style: none;
+  padding: 5px;
+}
+
+ul.messages li.info
+{
+  border-top: solid thin #00529B;
+  border-bottom: solid thin #00529B;
+  background-color: #BDE5F8;
+  list-style: none;
+  padding: 5px;
+}
+
+/* Pagination */
+div.pagination
+{
+  text-align: right;
+}
+
+/* Password */
